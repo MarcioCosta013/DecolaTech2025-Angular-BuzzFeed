@@ -1,59 +1,72 @@
-# ProjetoBuzzfeed
+[ANGULAR__BADGE]: https://img.shields.io/badge/Angular-red?style=for-the-badge&logo=angular
+[TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+<h1 align="center" style="font-weight: bold;">Projeto Buzzfeed 💻</h1>
 
-## Development server
+![angular][ANGULAR__BADGE] ![typescript][TYPESCRIPT__BADGE]
 
-To start a local development server, run:
+<p align="center">
+  <a href="#about">Sobre</a> • 
+  <a href="#started">Começando</a> • 
+  <a href="#Building">Building</a> • 
+  <a href="#recursos">Recursos Adicionais</a>
+</p>
+
+<p align="center">
+    <img src="/src/assets/imgs/image.png" alt="Image Example" width="400px">
+</p>
+
+<h2 id="started">📌 Sobre </h2>
+
+
+Este projeto foi gerado usando [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3. Tratasse de uma BuzzFeed com perguntas e respostas para descobrir de uma pessoa seria Héroi ou Vilão.  Feito no Bootcamp DecolaTech2025 da Avanade.
+
+<h2 id="started">🚀 Começando</h2>
+
+<h3>Pré-requisitos</h3>
+
+Aqui você lista todos os pré-requisitos necessários para executar seu projeto. Por exemplo:
+
+- Node 22.14.0
+- Angular CLI 19.2.3
+- Git 
+
+<h3>Clonando</h3>
 
 ```bash
+git clone https://github.com/MarcioCosta013/DecolaTech2025-Angular-BuzzFeed.git
+```
+
+<h3>Começando</h3>
+
+No terminal, execute o seguente script:
+
+```bash
+cd buzzfeed
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Depois que o servidor estiver em execução, abra seu navegador e navegue até http://localhost:4200/ . O aplicativo será recarregado automaticamente sempre que você modificar qualquer um dos arquivos de origem.
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+<h3 id="Building"> Building </h3>
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+Para construir o projeto, execute:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Isso compilará seu projeto e armazenará os artefatos de build no `dist/` diretório. Por padrão, o build de produção otimiza seu aplicativo para desempenho e velocidade.
 
-## Running unit tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+<h3 id="recursos">Recursos Adicionais</h3>
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+Caso o programa não consiga ler o arquivo `quizz_questions.json` verifique de no arquivo `tsconfig.json` se tem os seguintes comandos:
 
 ```bash
-ng e2e
+"resolveJsonModule": true, //Config para resolver e entender arquivos JSON
+"allowSyntheticDefaultImports": true, //Config para entender e importar arquivos arquivos que não são TS, como um arquivo JSON
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Para obter mais informações sobre como usar o Angular CLI, incluindo referências detalhadas de comandos, visite a página [Visão geral e referência de comandos do Angular CLI](https://angular.dev/tools/cli).
