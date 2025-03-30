@@ -25,8 +25,6 @@ Este projeto foi gerado usando [Angular CLI](https://github.com/angular/angular-
 
 <h3>Pré-requisitos</h3>
 
-Aqui você lista todos os pré-requisitos necessários para executar seu projeto. Por exemplo:
-
 - Node 22.14.0
 - Angular CLI 19.2.3
 - Git 
